@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ExpenseDetailsActivity">
+
+    <item
+        android:id="@+id/action_save_expense"
+        android:title="@string/action_save"
+        android:icon="@drawable/right_icon"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_cancel_edit_expense"
+        android:title="Cancel"
+        android:icon="@drawable/wrong_icon"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_edit_expense"
+        android:title="Edit"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_delete_expense"
+        android:title="@string/action_delete"
+        app:showAsAction="never" />
+</menu>

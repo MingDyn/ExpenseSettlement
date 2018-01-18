@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Options menu to add item -->
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".TripEditorActivity">
+
+    <item
+        android:id="@+id/action_save_trip"
+        android:title="@string/action_save"
+        android:icon="@drawable/right_icon"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_cancel_edit_trip"
+        android:title="Cancel"
+        android:icon="@drawable/wrong_icon"
+        app:showAsAction="always" />
+</menu>

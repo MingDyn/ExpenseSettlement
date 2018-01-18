@@ -1,0 +1,83 @@
+<resources>
+    <!-- Name for the application [CHAR LIMIT=12] -->
+    <string name="app_name">Expense Settlement</string>
+
+    <!-- Title text for the empty view, which describes no trip image [CHAR LIMIT=50] -->
+    <string name="empty_view_title_text">Still at home?</string>
+
+    <!-- Subtitle text for the empty view that prompts the user to add a trip [CHAR LIMIT=50] -->
+    <string name="empty_view_subtitle_text">Get started by adding a trip</string>
+
+    <!-- Title for the activity to add a new pet [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_new_trip">Add a Trip</string>
+
+    <!-- Title for the activity to add a new pet [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_new_person">Add a Person</string>
+
+    <!-- Title for the activity to add a new expense [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_new_expense">Add an Expense</string>
+
+    <!-- Label for editor menu option to save pet and leave editor [CHAR LIMIT=20] -->
+    <string name="action_save">Save</string>
+
+    <!-- Label for editor overflow menu option that deletes the current pet [CHAR LIMIT=20] -->
+    <string name="action_delete">Delete</string>
+
+    <!-- Label for overview category of attributes in the editor [CHAR LIMIT=30] -->
+    <string name="category_overview">Overview</string>
+
+    <!-- Text hint for name field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_name">Name</string>
+
+    <!-- Toast message in editor when successfully updated [CHAR LIMIT=NONE] -->
+    <string name="editor_update_successful">Successfully updated</string>
+
+    <!-- Toast message in editor when failed to be updated [CHAR LIMIT=NONE] -->
+    <string name="editor_update_failed">Error with updating</string>
+
+    <!-- Toast message in editor when successfully inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_successful">Successfully inserted</string>
+
+    <!-- Toast message in editor when failed to be inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_failed">Failed to insert</string>
+
+    <!-- Dialog message when user is leaving editor but hasn't saved changes [CHAR LIMIT=NONE] -->
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+
+    <!-- Dialog button text for the option to discard a user's changes [CHAR LIMIT=20] -->
+    <string name="discard">Discard</string>
+
+    <!-- Dialog button text for the option to keep editing the current pet [CHAR LIMIT=20] -->
+    <string name="keep_editing">Keep Editing</string>
+
+    <!-- Dialog message to ask the user to confirm deleting the current item [CHAR LIMIT=NONE] -->
+    <string name="delete_dialog_msg">Delete this?</string>
+
+    <!-- Dialog message to ask the user to confirm deleting the current item [CHAR LIMIT=NONE] -->
+    <string name="delete_dialog_all_trips">Delete all trips?</string>
+
+    <!-- Dialog message to ask the user to confirm deleting the current item [CHAR LIMIT=NONE] -->
+    <string name="delete_successful">Deleted </string>
+
+    <!-- Dialog button text for the option to confirm deleting the current pet [CHAR LIMIT=20] -->
+    <string name="delete">Delete</string>
+
+    <!-- Dialog button text for the option to cancel deletion of the current pet [CHAR LIMIT=20] -->
+    <string name="cancel">Cancel</string>
+
+    <!-- Label for overflow menu option that inserts fake pet data into the app [CHAR LIMIT=20] -->
+    <string name="action_insert_dummy_data">Insert Dummy Data</string>
+
+    <!-- Label for overflow menu option that deletes all pet data in the app [CHAR LIMIT=20] -->
+    <string name="action_delete_all_entries">Delete All Pets</string>
+
+    <!-- Title text for the empty list, which describes no expense [CHAR LIMIT=50] -->
+    <string name="empty_expense_text">No expense to show</string>
+
+    <string name="type_hotel">Hotel</string>
+    <string name="type_shopping">Shopping</string>
+    <string name="type_transportation">Transportation</string>
+    <string name="type_entertainment">Entertainment</string>
+    <string name="type_food">Food</string>
+    <string name="type_other">Other</string>
+</resources>

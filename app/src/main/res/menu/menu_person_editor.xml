@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".PersonEditorActivity">
+
+    <item
+        android:id="@+id/action_save_person"
+        android:title="@string/action_save"
+        android:icon="@drawable/right_icon"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_cancel_edit_person"
+        android:title="Cancel"
+        android:icon="@drawable/wrong_icon"
+        app:showAsAction="always" />
+</menu>
